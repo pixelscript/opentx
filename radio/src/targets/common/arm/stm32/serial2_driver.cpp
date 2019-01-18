@@ -101,6 +101,11 @@ void serial2Init(unsigned int mode, unsigned int protocol)
         uart3Setup(FRSKY_D_BAUDRATE, true);
       }
       break;
+    case UART_MODE_TELEMETRY_CRSF:
+      if (protocol == PROTOCOL_PULSES_CROSSFIRE) {
+        uart3Setup(CROSSFIRE_BAUDRATE, true);
+      }
+      break;
   }
 }
 

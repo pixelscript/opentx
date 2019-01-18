@@ -175,6 +175,11 @@
      </item>
      <item>
       <property name="text">
+       <string>CRSF Telemetry</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
        <string>Telemetry</string>
       </property>
      </item>
